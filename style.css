@@ -1,0 +1,135 @@
+/* ── Tag selector: style the whole page ── */
+body {
+  font-family: Georgia, serif;
+  color: #222;
+  background-color: #f5f5f0;
+  margin: 0;
+  padding: 0;
+}
+
+/* ── Tag selector: headings ── */
+h1 {
+  margin: 0 0 6px 0;
+  font-size: 2rem;
+  color: #1a3a5c;
+}
+
+h2 {
+  font-size: 1.1rem;
+  color: #1a3a5c;
+  margin: 0 0 10px 0;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+/* ── ID: header banner ── */
+#header {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  background-color: #1a3a5c;
+  color: #fff;
+  padding: 32px 48px;       /* box model: padding */
+  margin-bottom: 0;         /* box model: margin */
+}
+
+#header h1 {
+  color: #fff;
+}
+
+#header img {
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  border: 3px solid #fff;
+}
+
+/* ── ID: awards section ── */
+#awards {
+  background-color: #eaf0f8;
+  border-left: 4px solid #1a3a5c;
+  padding: 20px 40px;       /* box model: padding */
+  margin: 0 48px 24px;      /* box model: margin */
+  border-radius: 4px;
+}
+
+/* ── Class: .section — applied to every content block ── */
+.section {
+  background-color: #fff;
+  margin: 24px 48px;        /* box model: margin */
+  padding: 24px 32px;       /* box model: padding */
+  border-radius: 6px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+}
+
+/* ── Class: .section-title — applied to every h2 inside sections ── */
+.section-title {
+  border-bottom: 2px solid #1a3a5c;
+  padding-bottom: 6px;
+  margin-bottom: 16px;
+}
+
+/* ── Class: .subtitle — applied to multiple <p> tags in the header ── */
+.subtitle {
+  margin: 4px 0;
+  font-size: 0.95rem;
+  color: #cdd8e3;
+}
+
+/* ── Class: .entry — applied to every job/school row ── */
+.entry {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-top: 16px;
+}
+
+/* ── Class: .entry-name — applied to the left label in each row ── */
+.entry-name {
+  font-weight: bold;
+  color: #1a3a5c;
+}
+
+/* ── Class: .entry-date — applied to the right date in each row ── */
+.entry-date {
+  font-style: italic;
+  color: #555;
+  font-size: 0.9rem;
+}
+
+.entry-detail {
+  margin: 2px 0 0 0;
+  color: #444;
+  font-size: 0.95rem;
+}
+
+ul {
+  margin: 6px 0 0 0;
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 4px;
+  line-height: 1.5;
+}
+
+/* ── <a> tag styling ── */
+a {
+  color: #4a90d9;
+  text-decoration: none;
+}
+
+/* ── Hover selector on <a> ── */
+a:hover {
+  color: #e07b2a;
+  text-decoration: underline;
+}
+
+/* ── footer ── */
+footer {
+  text-align: center;
+  padding: 20px;
+  font-size: 0.85rem;
+  color: #888;
+  margin-top: 8px;
+}
