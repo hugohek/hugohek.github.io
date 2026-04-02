@@ -1,4 +1,3 @@
-/* ── Tag selector: style the whole page ── */
 body {
   font-family: Georgia, serif;
   color: #222;
@@ -7,7 +6,6 @@ body {
   padding: 0;
 }
 
-/* ── Tag selector: headings ── */
 h1 {
   margin: 0 0 6px 0;
   font-size: 2rem;
@@ -22,15 +20,14 @@ h2 {
   letter-spacing: 0.05em;
 }
 
-/* ── ID: header banner ── */
 #header {
   display: flex;
   align-items: center;
   gap: 24px;
   background-color: #1a3a5c;
   color: #fff;
-  padding: 32px 48px;       /* box model: padding */
-  margin-bottom: 0;         /* box model: margin */
+  padding: 32px 48px;       
+  margin-bottom: 0;        
 }
 
 #header h1 {
@@ -44,39 +41,34 @@ h2 {
   border: 3px solid #fff;
 }
 
-/* ── ID: awards section ── */
 #awards {
   background-color: #eaf0f8;
   border-left: 4px solid #1a3a5c;
-  padding: 20px 40px;       /* box model: padding */
-  margin: 0 48px 24px;      /* box model: margin */
+  padding: 20px 40px;      
+  margin: 0 48px 24px;     
   border-radius: 4px;
 }
 
-/* ── Class: .section — applied to every content block ── */
 .section {
   background-color: #fff;
-  margin: 24px 48px;        /* box model: margin */
-  padding: 24px 32px;       /* box model: padding */
+  margin: 24px 48px;        
+  padding: 24px 32px;      
   border-radius: 6px;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
 }
 
-/* ── Class: .section-title — applied to every h2 inside sections ── */
 .section-title {
   border-bottom: 2px solid #1a3a5c;
   padding-bottom: 6px;
   margin-bottom: 16px;
 }
 
-/* ── Class: .subtitle — applied to multiple <p> tags in the header ── */
 .subtitle {
   margin: 4px 0;
   font-size: 0.95rem;
   color: #cdd8e3;
 }
 
-/* ── Class: .entry — applied to every job/school row ── */
 .entry {
   display: flex;
   justify-content: space-between;
@@ -84,13 +76,11 @@ h2 {
   margin-top: 16px;
 }
 
-/* ── Class: .entry-name — applied to the left label in each row ── */
 .entry-name {
   font-weight: bold;
   color: #1a3a5c;
 }
 
-/* ── Class: .entry-date — applied to the right date in each row ── */
 .entry-date {
   font-style: italic;
   color: #555;
